@@ -43,7 +43,7 @@ services:
     build: ./frontend
     container_name: student-frontend
     ports:
-      - "8080:80"
+      - "27491:80"
     networks:
       - student-network
     depends_on:
